@@ -1,0 +1,6 @@
+Flask
+bcrypt
+flask_wtf
+pyotp
+pyqrcode
+pypng
