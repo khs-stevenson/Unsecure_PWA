@@ -48,12 +48,12 @@ Then repeat step 1.
 ### 3. Add Jinga2 to layout.html
 Rename the index.html to layout.html   
 Change the ```<body>``` to add the Jinga2 partials and block content  
-<img src="image.png" width="650" >
+<img src="Readme_images/image.png" width="650" >
 
 ### 4. Create new index.html 
 Create a new index.html  
 Add the following to that file.  
-<img src="image-1.png" width="400" >
+<img src="Readme_images/image-1.png" width="400" >
 
 ### 5. Add a Nav bar
 This will be just the default values to show how it can be done.  
@@ -64,23 +64,23 @@ Copy and paste into menu.html the basic navbar from https://getbootstrap.com/doc
 ### 6. Is_logged_in Boolean
 Add a Boolean to manage logged in/out state. 
 Pass the Boolean to the index.html template.  
-<img src="image-2.png" width="650" >
+<img src="Readme_images/image-2.png" width="650" >
 
 ### 7. Add Jinga2 logic to index.html
-<img src="image-3.png" width="450" >
+<img src="Readme_images/image-3.png" width="450" >
 
 ### 8. partials/login_form.html
 Create a new file partials/login_form.html 
 Add the basic html code as shown.  
- <img src="image-4.png" width="300" >  
+ <img src="Readme_images/image-4.png" width="300" >  
 Add to the form the first login script on https://getbootstrap.com/docs/5.3/forms/overview/  
 Modify the form code so that it matches the following, paying close attention to the underlined sections.
-<img src="image-5.png" width="600" >  
+<img src="Readme_images/image-5.png" width="600" >  
 
 ### 9. extend index_page()
 Extend the index_page() method in main.py to store the form data as variables.  
 Log them to the terminal for debugging purposes.  
-<img src="image-6.png" width="600" >   
+<img src="Readme_images/image-6.png" width="600" >   
 
 ### 10. Add database access
 In main.py, add   
@@ -89,7 +89,7 @@ at the start of the program.
    
 Then add the call to the db_manager to authenticate the email and password. A valid email/password is me@here.com/1234   
 
-<img src="image-7.png" width="600" >   
+<img src="Readme_images/image-7.png" width="600" >   
 
 ### 11. Create db_manager.py
 Create a new file in the same folder as main.py called db_manager.py   
